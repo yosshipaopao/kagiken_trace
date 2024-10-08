@@ -572,6 +572,168 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -1645,6 +1807,12 @@
 		(uuid "a92e3352-85d5-4724-a8fb-50596a4b03ac")
 	)
 	(junction
+		(at 20.32 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aadbeed7-3412-4041-82e1-64b77df0d1b0")
+	)
+	(junction
 		(at 21.59 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1655,12 +1823,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afe1d6dc-8ff8-4699-8630-5218eec6c1ae")
-	)
-	(junction
-		(at 20.32 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9d2bf48-fe3e-4c28-82ed-58a8dc691368")
 	)
 	(junction
 		(at 52.07 22.86)
@@ -1766,6 +1928,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 104.14) (xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4af7e6-adde-417c-9b4d-9095a2830afd")
+	)
+	(wire
+		(pts
 			(xy 19.05 96.52) (xy 21.59 96.52)
 		)
 		(stroke
@@ -1783,6 +1955,16 @@
 			(type default)
 		)
 		(uuid "221bd6da-41b5-4840-8526-6ec60be16bd7")
+	)
+	(wire
+		(pts
+			(xy 118.11 124.46) (xy 132.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b0fc14-44a5-4c33-b17f-2ae769c2b661")
 	)
 	(wire
 		(pts
@@ -1836,6 +2018,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 134.62) (xy 133.35 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbff4db-0aa5-4e6b-bd2d-c9d3972435a9")
+	)
+	(wire
+		(pts
 			(xy 68.58 96.52) (xy 73.66 96.52)
 		)
 		(stroke
@@ -1866,6 +2058,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 91.44) (xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464cda2c-46c1-4232-9e08-16c0a2123be6")
+	)
+	(wire
+		(pts
 			(xy 99.06 101.6) (xy 99.06 106.68)
 		)
 		(stroke
@@ -1886,16 +2088,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 39.37) (xy 20.32 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f827f54-3a48-41bc-9dc4-8b503a521d8a")
-	)
-	(wire
-		(pts
 			(xy 52.07 101.6) (xy 24.13 101.6)
 		)
 		(stroke
@@ -1903,6 +2095,16 @@
 			(type default)
 		)
 		(uuid "4fe535de-59b2-4304-ab1a-7379e8c77d04")
+	)
+	(wire
+		(pts
+			(xy 17.78 39.37) (xy 20.32 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50390e1c-691f-4a47-bf9a-e97c4d65f1af")
 	)
 	(wire
 		(pts
@@ -1946,6 +2148,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 124.46) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d15f676-8127-41d8-a918-77b4b09c7721")
+	)
+	(wire
+		(pts
 			(xy 71.12 91.44) (xy 71.12 101.6)
 		)
 		(stroke
@@ -1973,6 +2185,16 @@
 			(type default)
 		)
 		(uuid "689bd9aa-7263-4b16-962f-f39017dbc2f9")
+	)
+	(wire
+		(pts
+			(xy 130.81 132.08) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69059d66-70ef-4d35-8cac-3d5f491901b4")
 	)
 	(wire
 		(pts
@@ -2066,6 +2288,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 96.52) (xy 21.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8034f8-40b7-4778-a2d2-457008af955c")
+	)
+	(wire
+		(pts
 			(xy 50.8 34.29) (xy 52.07 34.29)
 		)
 		(stroke
@@ -2073,16 +2305,6 @@
 			(type default)
 		)
 		(uuid "93816197-8863-43b1-9b4e-e32837d84cb9")
-	)
-	(wire
-		(pts
-			(xy 21.59 96.52) (xy 21.59 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f92a21-29e7-4d98-b51b-d80e4acbc071")
 	)
 	(wire
 		(pts
@@ -2103,16 +2325,6 @@
 			(type default)
 		)
 		(uuid "99d156a9-5c82-4cd3-8294-5e3bf4611c6e")
-	)
-	(wire
-		(pts
-			(xy 20.32 39.37) (xy 20.32 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a5f4033-da10-4594-bb68-95d6b98d7a07")
 	)
 	(wire
 		(pts
@@ -2226,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 109.22) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4e13c8-7af2-48ea-aad2-75c65abb75d9")
+	)
+	(wire
+		(pts
 			(xy 52.07 21.59) (xy 52.07 22.86)
 		)
 		(stroke
@@ -2286,6 +2508,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 106.68) (xy 132.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a5af0f-0319-4440-8ece-7e850c306d56")
+	)
+	(wire
+		(pts
 			(xy 24.13 91.44) (xy 24.13 101.6)
 		)
 		(stroke
@@ -2313,6 +2545,16 @@
 			(type default)
 		)
 		(uuid "facc4d00-bccd-4a19-8b97-4796a535cc76")
+	)
+	(wire
+		(pts
+			(xy 20.32 39.37) (xy 20.32 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc5d00e7-e9c6-4600-baf3-4c572e8e54f0")
 	)
 	(global_label "S2"
 		(shape input)
@@ -2518,7 +2760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_BL-FL7680RGB"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 21.59 119.38 0)
 			(effects
 				(font
@@ -2735,6 +2977,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 138.43 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f0315c4-2c75-413e-a0ec-0ec28b068f00")
+		(property "Reference" "J3"
+			(at 139.7 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 139.7 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3c58849-4da3-43c7-877a-675d69b70366")
+		)
+		(pin "1"
+			(uuid "b79db304-f1ba-4f8e-8af1-e7b4942a9a1e")
+		)
+		(instances
+			(project ""
+				(path "/e7c67dbf-fd27-4614-9399-1c002abf5d4d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 49.53 0)
 		(unit 1)
@@ -2795,6 +3107,82 @@
 			(project "LT"
 				(path "/e7c67dbf-fd27-4614-9399-1c002abf5d4d"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 137.16 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1386716d-d8d6-446f-8326-33e1b8201f5e")
+		(property "Reference" "J2"
+			(at 138.43 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 138.43 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "291f4935-c068-4faa-ab98-70c2961fe163")
+		)
+		(pin "2"
+			(uuid "804a56a7-0b17-4f38-a422-16887cd0f9c9")
+		)
+		(pin "3"
+			(uuid "243ae573-7776-4b79-b345-1c94b563ae86")
+		)
+		(pin "4"
+			(uuid "97bb6f04-d505-4e32-aeeb-c5a9ba81332e")
+		)
+		(instances
+			(project "LT"
+				(path "/e7c67dbf-fd27-4614-9399-1c002abf5d4d"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3007,6 +3395,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 130.81 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37c90b98-8986-4a3f-895d-1be875e7a4db")
+		(property "Reference" "#PWR016"
+			(at 130.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "189a8614-c1bf-41a6-b9a3-26f7b649661b")
+		)
+		(instances
+			(project ""
+				(path "/e7c67dbf-fd27-4614-9399-1c002abf5d4d"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.07 30.48 0)
 		(unit 1)
@@ -3101,7 +3555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "自作:R_Variable"
 			(at 36.83 81.788 90)
 			(effects
 				(font
@@ -3307,7 +3761,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_BL-FL7680RGB"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 20.32 62.23 0)
 			(effects
 				(font
@@ -3419,7 +3873,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 20.32 50.8 270)
+		(at 118.11 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3428,7 +3882,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b81ca66-286d-4e25-94af-ca288ae0e73a")
 		(property "Reference" "U2"
-			(at 25.4 49.5299 90)
+			(at 123.19 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3891,7 @@
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 25.4 52.0699 90)
+			(at 123.19 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3900,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 20.32 50.8 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3909,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 20.32 50.8 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3918,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 20.32 50.8 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,46 +3927,46 @@
 			)
 		)
 		(pin "14"
-			(uuid "5f1a0ddf-6542-47e7-9661-5f0b93edc70e")
+			(uuid "5f1a0ddf-6542-47e7-9661-5f0b93edc70f")
 		)
 		(pin "11"
-			(uuid "1a9fef02-3762-41a3-9afb-403b60bc793b")
+			(uuid "1a9fef02-3762-41a3-9afb-403b60bc793c")
 		)
 		(pin "8"
-			(uuid "bce61a01-c8e0-4a93-8152-97ef73bb6d6a")
+			(uuid "bce61a01-c8e0-4a93-8152-97ef73bb6d6b")
 		)
 		(pin "9"
-			(uuid "55149281-af76-4ca6-a519-e4eb1eb7adf3")
+			(uuid "55149281-af76-4ca6-a519-e4eb1eb7adf4")
 		)
 		(pin "5"
-			(uuid "7a2a9925-fb2c-4d3d-80a7-f6378db7e3cc")
+			(uuid "7a2a9925-fb2c-4d3d-80a7-f6378db7e3cd")
 		)
 		(pin "2"
-			(uuid "75632831-9900-487a-b4e4-3679a07a0910")
+			(uuid "75632831-9900-487a-b4e4-3679a07a0911")
 		)
 		(pin "13"
-			(uuid "39c91ed5-7b41-4ee2-88e3-a1bcf56c74aa")
+			(uuid "39c91ed5-7b41-4ee2-88e3-a1bcf56c74ab")
 		)
 		(pin "3"
-			(uuid "aef229f8-04e7-4704-a53d-b9984bc65c7b")
+			(uuid "aef229f8-04e7-4704-a53d-b9984bc65c7c")
 		)
 		(pin "10"
-			(uuid "701b72ac-edf8-4e73-8b70-4fba80b8d7cd")
+			(uuid "701b72ac-edf8-4e73-8b70-4fba80b8d7ce")
 		)
 		(pin "12"
-			(uuid "cfd2d591-a0a8-47bf-8ad8-857f195a7b0d")
+			(uuid "cfd2d591-a0a8-47bf-8ad8-857f195a7b0e")
 		)
 		(pin "4"
-			(uuid "2650af11-03f2-4205-ace1-06113520af9f")
+			(uuid "2650af11-03f2-4205-ace1-06113520afa0")
 		)
 		(pin "6"
-			(uuid "907eb9c1-872b-49f0-b50d-aca9dac54608")
+			(uuid "907eb9c1-872b-49f0-b50d-aca9dac54609")
 		)
 		(pin "1"
-			(uuid "a89db51a-29d0-46a9-9467-d49798c25804")
+			(uuid "a89db51a-29d0-46a9-9467-d49798c25805")
 		)
 		(pin "7"
-			(uuid "3d8bf02b-6d51-4ceb-b6ad-57a2045703dd")
+			(uuid "3d8bf02b-6d51-4ceb-b6ad-57a2045703de")
 		)
 		(instances
 			(project ""
@@ -3733,7 +4187,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 67.31 50.8 270)
+		(at 21.59 107.95 270)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3742,7 +4196,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d2d0759-e6fd-4514-8e8b-f941b6950b5f")
 		(property "Reference" "U2"
-			(at 72.39 49.5299 90)
+			(at 26.67 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +4205,7 @@
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 72.39 52.0699 90)
+			(at 26.67 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +4214,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 67.31 50.8 0)
+			(at 21.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +4223,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 67.31 50.8 0)
+			(at 21.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +4232,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 67.31 50.8 0)
+			(at 21.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,46 +4241,46 @@
 			)
 		)
 		(pin "14"
-			(uuid "5f1a0ddf-6542-47e7-9661-5f0b93edc70e")
+			(uuid "5f1a0ddf-6542-47e7-9661-5f0b93edc710")
 		)
 		(pin "11"
-			(uuid "1a9fef02-3762-41a3-9afb-403b60bc793b")
+			(uuid "1a9fef02-3762-41a3-9afb-403b60bc793d")
 		)
 		(pin "8"
-			(uuid "bce61a01-c8e0-4a93-8152-97ef73bb6d6a")
+			(uuid "bce61a01-c8e0-4a93-8152-97ef73bb6d6c")
 		)
 		(pin "9"
-			(uuid "55149281-af76-4ca6-a519-e4eb1eb7adf3")
+			(uuid "55149281-af76-4ca6-a519-e4eb1eb7adf5")
 		)
 		(pin "5"
-			(uuid "7a2a9925-fb2c-4d3d-80a7-f6378db7e3cc")
+			(uuid "7a2a9925-fb2c-4d3d-80a7-f6378db7e3ce")
 		)
 		(pin "2"
-			(uuid "75632831-9900-487a-b4e4-3679a07a0910")
+			(uuid "75632831-9900-487a-b4e4-3679a07a0912")
 		)
 		(pin "13"
-			(uuid "39c91ed5-7b41-4ee2-88e3-a1bcf56c74aa")
+			(uuid "39c91ed5-7b41-4ee2-88e3-a1bcf56c74ac")
 		)
 		(pin "3"
-			(uuid "aef229f8-04e7-4704-a53d-b9984bc65c7b")
+			(uuid "aef229f8-04e7-4704-a53d-b9984bc65c7d")
 		)
 		(pin "10"
-			(uuid "701b72ac-edf8-4e73-8b70-4fba80b8d7cd")
+			(uuid "701b72ac-edf8-4e73-8b70-4fba80b8d7cf")
 		)
 		(pin "12"
-			(uuid "cfd2d591-a0a8-47bf-8ad8-857f195a7b0d")
+			(uuid "cfd2d591-a0a8-47bf-8ad8-857f195a7b0f")
 		)
 		(pin "4"
-			(uuid "2650af11-03f2-4205-ace1-06113520af9f")
+			(uuid "2650af11-03f2-4205-ace1-06113520afa1")
 		)
 		(pin "6"
-			(uuid "907eb9c1-872b-49f0-b50d-aca9dac54608")
+			(uuid "907eb9c1-872b-49f0-b50d-aca9dac5460a")
 		)
 		(pin "1"
-			(uuid "a89db51a-29d0-46a9-9467-d49798c25804")
+			(uuid "a89db51a-29d0-46a9-9467-d49798c25806")
 		)
 		(pin "7"
-			(uuid "3d8bf02b-6d51-4ceb-b6ad-57a2045703dd")
+			(uuid "3d8bf02b-6d51-4ceb-b6ad-57a2045703df")
 		)
 		(instances
 			(project ""
@@ -3865,7 +4319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_BL-FL7680RGB"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 67.31 62.23 0)
 			(effects
 				(font
@@ -4064,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "自作:R_Variable"
 			(at 83.82 81.788 90)
 			(effects
 				(font
@@ -4240,7 +4694,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 68.58 107.95 270)
+		(at 67.31 50.8 270)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4249,7 +4703,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dd01a13-61d6-4eb8-ade0-23454291ff8c")
 		(property "Reference" "U2"
-			(at 73.66 106.6799 90)
+			(at 72.39 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4712,7 @@
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 73.66 109.2199 90)
+			(at 72.39 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4721,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 68.58 107.95 0)
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +4730,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 68.58 107.95 0)
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4739,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 68.58 107.95 0)
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,46 +4748,46 @@
 			)
 		)
 		(pin "14"
-			(uuid "5f1a0ddf-6542-47e7-9661-5f0b93edc70e")
+			(uuid "5f1a0ddf-6542-47e7-9661-5f0b93edc711")
 		)
 		(pin "11"
-			(uuid "1a9fef02-3762-41a3-9afb-403b60bc793b")
+			(uuid "1a9fef02-3762-41a3-9afb-403b60bc793e")
 		)
 		(pin "8"
-			(uuid "bce61a01-c8e0-4a93-8152-97ef73bb6d6a")
+			(uuid "bce61a01-c8e0-4a93-8152-97ef73bb6d6d")
 		)
 		(pin "9"
-			(uuid "55149281-af76-4ca6-a519-e4eb1eb7adf3")
+			(uuid "55149281-af76-4ca6-a519-e4eb1eb7adf6")
 		)
 		(pin "5"
-			(uuid "7a2a9925-fb2c-4d3d-80a7-f6378db7e3cc")
+			(uuid "7a2a9925-fb2c-4d3d-80a7-f6378db7e3cf")
 		)
 		(pin "2"
-			(uuid "75632831-9900-487a-b4e4-3679a07a0910")
+			(uuid "75632831-9900-487a-b4e4-3679a07a0913")
 		)
 		(pin "13"
-			(uuid "39c91ed5-7b41-4ee2-88e3-a1bcf56c74aa")
+			(uuid "39c91ed5-7b41-4ee2-88e3-a1bcf56c74ad")
 		)
 		(pin "3"
-			(uuid "aef229f8-04e7-4704-a53d-b9984bc65c7b")
+			(uuid "aef229f8-04e7-4704-a53d-b9984bc65c7e")
 		)
 		(pin "10"
-			(uuid "701b72ac-edf8-4e73-8b70-4fba80b8d7cd")
+			(uuid "701b72ac-edf8-4e73-8b70-4fba80b8d7d0")
 		)
 		(pin "12"
-			(uuid "cfd2d591-a0a8-47bf-8ad8-857f195a7b0d")
+			(uuid "cfd2d591-a0a8-47bf-8ad8-857f195a7b10")
 		)
 		(pin "4"
-			(uuid "2650af11-03f2-4205-ace1-06113520af9f")
+			(uuid "2650af11-03f2-4205-ace1-06113520afa2")
 		)
 		(pin "6"
-			(uuid "907eb9c1-872b-49f0-b50d-aca9dac54608")
+			(uuid "907eb9c1-872b-49f0-b50d-aca9dac5460b")
 		)
 		(pin "1"
-			(uuid "a89db51a-29d0-46a9-9467-d49798c25804")
+			(uuid "a89db51a-29d0-46a9-9467-d49798c25807")
 		)
 		(pin "7"
-			(uuid "3d8bf02b-6d51-4ceb-b6ad-57a2045703dd")
+			(uuid "3d8bf02b-6d51-4ceb-b6ad-57a2045703e0")
 		)
 		(instances
 			(project ""
@@ -4346,7 +4800,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 21.59 107.95 270)
+		(at 118.11 116.84 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4355,7 +4809,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3936cf0-817f-47f6-a0ae-536889ac8895")
 		(property "Reference" "U2"
-			(at 26.67 106.6799 90)
+			(at 123.19 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +4818,7 @@
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 26.67 109.2199 90)
+			(at 123.19 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +4827,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 21.59 107.95 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4836,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 21.59 107.95 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +4845,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 21.59 107.95 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,46 +4854,46 @@
 			)
 		)
 		(pin "14"
-			(uuid "5f1a0ddf-6542-47e7-9661-5f0b93edc70e")
+			(uuid "5f1a0ddf-6542-47e7-9661-5f0b93edc712")
 		)
 		(pin "11"
-			(uuid "1a9fef02-3762-41a3-9afb-403b60bc793b")
+			(uuid "1a9fef02-3762-41a3-9afb-403b60bc793f")
 		)
 		(pin "8"
-			(uuid "bce61a01-c8e0-4a93-8152-97ef73bb6d6a")
+			(uuid "bce61a01-c8e0-4a93-8152-97ef73bb6d6e")
 		)
 		(pin "9"
-			(uuid "55149281-af76-4ca6-a519-e4eb1eb7adf3")
+			(uuid "55149281-af76-4ca6-a519-e4eb1eb7adf7")
 		)
 		(pin "5"
-			(uuid "7a2a9925-fb2c-4d3d-80a7-f6378db7e3cc")
+			(uuid "7a2a9925-fb2c-4d3d-80a7-f6378db7e3d0")
 		)
 		(pin "2"
-			(uuid "75632831-9900-487a-b4e4-3679a07a0910")
+			(uuid "75632831-9900-487a-b4e4-3679a07a0914")
 		)
 		(pin "13"
-			(uuid "39c91ed5-7b41-4ee2-88e3-a1bcf56c74aa")
+			(uuid "39c91ed5-7b41-4ee2-88e3-a1bcf56c74ae")
 		)
 		(pin "3"
-			(uuid "aef229f8-04e7-4704-a53d-b9984bc65c7b")
+			(uuid "aef229f8-04e7-4704-a53d-b9984bc65c7f")
 		)
 		(pin "10"
-			(uuid "701b72ac-edf8-4e73-8b70-4fba80b8d7cd")
+			(uuid "701b72ac-edf8-4e73-8b70-4fba80b8d7d1")
 		)
 		(pin "12"
-			(uuid "cfd2d591-a0a8-47bf-8ad8-857f195a7b0d")
+			(uuid "cfd2d591-a0a8-47bf-8ad8-857f195a7b11")
 		)
 		(pin "4"
-			(uuid "2650af11-03f2-4205-ace1-06113520af9f")
+			(uuid "2650af11-03f2-4205-ace1-06113520afa3")
 		)
 		(pin "6"
-			(uuid "907eb9c1-872b-49f0-b50d-aca9dac54608")
+			(uuid "907eb9c1-872b-49f0-b50d-aca9dac5460c")
 		)
 		(pin "1"
-			(uuid "a89db51a-29d0-46a9-9467-d49798c25804")
+			(uuid "a89db51a-29d0-46a9-9467-d49798c25808")
 		)
 		(pin "7"
-			(uuid "3d8bf02b-6d51-4ceb-b6ad-57a2045703dd")
+			(uuid "3d8bf02b-6d51-4ceb-b6ad-57a2045703e1")
 		)
 		(instances
 			(project ""
@@ -4588,7 +5042,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 121.92 132.08 0)
+		(at 20.32 50.8 270)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4597,23 +5051,25 @@
 		(fields_autoplaced yes)
 		(uuid "b8c0be22-4e3e-4f95-918b-72e7faaff831")
 		(property "Reference" "U2"
-			(at 121.92 123.19 0)
+			(at 25.4 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 121.92 125.73 0)
+			(at 25.4 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 121.92 132.08 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +5078,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 121.92 132.08 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +5087,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 121.92 132.08 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +5311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "自作:R_Variable"
 			(at 82.55 24.638 90)
 			(effects
 				(font
@@ -5067,7 +5523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_BL-FL7680RGB"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 68.58 119.38 0)
 			(effects
 				(font
@@ -5178,8 +5634,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 130.81 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e537a31b-16cb-4214-a9ce-514f041987b8")
+		(property "Reference" "#PWR015"
+			(at 130.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cebbfc40-ca62-47ad-a3ff-e9560abec747")
+		)
+		(instances
+			(project ""
+				(path "/e7c67dbf-fd27-4614-9399-1c002abf5d4d"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 121.92 146.05 0)
+		(at 68.58 107.95 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5188,23 +5710,25 @@
 		(fields_autoplaced yes)
 		(uuid "e629c32c-6eee-41ac-ac74-d68b5c47b4f4")
 		(property "Reference" "U2"
-			(at 121.92 137.16 0)
+			(at 73.66 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 121.92 139.7 0)
+			(at 73.66 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 121.92 146.05 0)
+			(at 68.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5737,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 121.92 146.05 0)
+			(at 68.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5746,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 121.92 146.05 0)
+			(at 68.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +5900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "自作:R_Variable"
 			(at 35.56 24.638 90)
 			(effects
 				(font
