@@ -3873,7 +3873,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 118.11 99.06 270)
+		(at 20.32 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3882,7 +3882,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b81ca66-286d-4e25-94af-ca288ae0e73a")
 		(property "Reference" "U2"
-			(at 123.19 97.7899 90)
+			(at 25.4 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3891,7 @@
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 123.19 100.3299 90)
+			(at 25.4 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +3900,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 118.11 99.06 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3909,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 118.11 99.06 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3918,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 118.11 99.06 0)
+			(at 20.32 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4187,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 21.59 107.95 270)
+		(at 68.58 107.95 270)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4196,7 +4196,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d2d0759-e6fd-4514-8e8b-f941b6950b5f")
 		(property "Reference" "U2"
-			(at 26.67 106.6799 90)
+			(at 73.66 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +4205,7 @@
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 26.67 109.2199 90)
+			(at 73.66 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4214,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 21.59 107.95 0)
+			(at 68.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4223,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 21.59 107.95 0)
+			(at 68.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4232,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 21.59 107.95 0)
+			(at 68.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +4800,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 118.11 116.84 270)
+		(at 118.11 99.06 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4809,25 +4809,25 @@
 		(fields_autoplaced yes)
 		(uuid "a3936cf0-817f-47f6-a0ae-536889ac8895")
 		(property "Reference" "U2"
-			(at 123.19 115.5699 90)
+			(at 123.19 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 123.19 118.1099 90)
+			(at 123.19 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 118.11 116.84 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +4836,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 118.11 116.84 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4845,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 118.11 116.84 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5042,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 20.32 50.8 270)
+		(at 118.11 116.84 90)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5051,25 +5051,25 @@
 		(fields_autoplaced yes)
 		(uuid "b8c0be22-4e3e-4f95-918b-72e7faaff831")
 		(property "Reference" "U2"
-			(at 25.4 49.5299 90)
+			(at 123.19 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 25.4 52.0699 90)
+			(at 123.19 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 20.32 50.8 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +5078,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 20.32 50.8 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5087,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 20.32 50.8 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5701,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC7014")
-		(at 68.58 107.95 270)
+		(at 21.59 107.95 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5710,7 +5710,7 @@
 		(fields_autoplaced yes)
 		(uuid "e629c32c-6eee-41ac-ac74-d68b5c47b4f4")
 		(property "Reference" "U2"
-			(at 73.66 106.6799 90)
+			(at 26.67 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5719,7 @@
 			)
 		)
 		(property "Value" "74HC7014"
-			(at 73.66 109.2199 90)
+			(at 26.67 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +5728,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 68.58 107.95 0)
+			(at 21.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5737,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf"
-			(at 68.58 107.95 0)
+			(at 21.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5746,7 @@
 			)
 		)
 		(property "Description" "Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14"
-			(at 68.58 107.95 0)
+			(at 21.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
