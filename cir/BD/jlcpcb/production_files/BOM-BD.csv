@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC
+10k,"R1,R2",R_2512_6332Metric,C25718
+Conn_01x04_Socket,J2,PinSocket_1x04_P2.54mm_Vertical,
+SW_Push,SW1,SW,
+~,U1,TC78H6353FTG,
+LED,D2,LED_D3.0mm,
+SW_Push,SW2,SW,
+Conn_01x02_Socket,J3,PinSocket_1x02_P2.54mm_Vertical,
+LED,D1,LED_D3.0mm,
+Conn_01x06_Socket,J1,PinSocket_1x06_P2.54mm_Vertical,
+Arduino_Nano_Every,A1,Arduino_Nano,

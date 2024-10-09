@@ -1,0 +1,12 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+A1,Arduino_Nano_Every,Arduino_Nano,22.342,-41.275,0.0,bottom
+D1,LED,LED_D3.0mm,25.527,-34.417,0.0,top
+D2,LED,LED_D3.0mm,19.812,-34.671,0.0,top
+J1,Conn_01x06_Socket,PinSocket_1x06_P2.54mm_Vertical,22.098,-17.653,-90.0,top
+J2,Conn_01x04_Socket,PinSocket_1x04_P2.54mm_Vertical,22.235,-59.665,90.0,top
+J3,Conn_01x02_Socket,PinSocket_1x02_P2.54mm_Vertical,22.225,-57.15,90.0,top
+R1,10k,R_2512_6332Metric,20.32,-42.545,90.0,top
+R2,10k,R_2512_6332Metric,24.384,-42.545,90.0,top
+SW1,SW_Push,SW,26.162,-27.305,-90.0,top
+SW2,SW_Push,SW,19.812,-27.305,-90.0,top
+U1,~,TC78H6353FTG,22.352,-47.625,180.0,top
