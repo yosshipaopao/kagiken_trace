@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,Arduino_Nano,1,Arduino_Nano_Every,
+"D1, D2",LED_D3.0mm,2,LED,
+J1,PinSocket_1x06_P2.54mm_Vertical,1,Conn_01x06_Socket,
+J2,PinSocket_1x04_P2.54mm_Vertical,1,Conn_01x04_Socket,
+J3,PinSocket_1x02_P2.54mm_Vertical,1,Conn_01x02_Socket,
+R1,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,10k,C25718
+R2,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,10k,
+"SW1, SW2",SW,2,SW_Push,
+U1,TC78H6353FTG,1,~,
