@@ -38,9 +38,9 @@ void loop() {
   const bool mr0 = (!b&!d&f)|(!e&!f)|(c&!d)|a;
   const bool mr1 = mr0|(b&!d);  
 
-  //q0 = (!s[0] & s[3]) | (sb & q0);
+  //q0 = (!a & d) | (sb & q0);
   q0 = (!a&!b&!c&e)|(!a&d);
-  //q1 = (!s[3] & s[0]) | (sb & q1);
+  //q1 = (!d & a) | (sb & q1);
   q1 = (!b&!c&!d&f)|(!d&a);
   
   m2.forward(((int)ml0 + (int)ml1) * 75);
