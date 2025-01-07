@@ -22,16 +22,15 @@ void loop() {
   bool a,b,c,d,e,f;
   rep(i, 4) s[i] = analogRead(sp[i]) > s_thr;
   a=s[0];
-  b=s[1];
+  b=s[1]; 
   c=s[2];
   d=s[3];
   e=q0;
   f=q1;
   //const bool sb = !s[0] & !s[1] & !s[2] & !s[3];
   //const bool ml0 = s[3] | (!s[0] & s[1]) | ((sb & q0) | (!q0 & !q1)); // (!a&b)|((sb&e)|(!e&!f))|d;
-  const bool ml0 = (!a&!c&e)|(!e&!f)|(!a&b)|d;  
+  const bool ml0 = (!a&!c&e)|(!e&!f)|(!a&b)|d;
   const bool ml1 = ml0|(!a&c);
-
 
   //const bool mr0 = s[0] | (!s[3] & s[2]) | ((sb & q1) | (!q0 & !q1));
   //const bool mr0 = a|(!d&c)|((sb&f)|(!e&!f));
