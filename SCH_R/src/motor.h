@@ -25,6 +25,11 @@ void Motor::setup() {
 }
 
 void Motor::forward(int speed) {
+  speed = constrain(speed, -255, 255);
+  if (speed < 0) {
+    backward(-speed);
+    return;
+  }
   analogWrite(left, speed);
   digitalWrite(right, LOW);
 }
