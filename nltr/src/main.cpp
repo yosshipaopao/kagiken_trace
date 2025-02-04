@@ -19,7 +19,7 @@ void setup() {
   while (digitalRead(SW_1)) delay(10);  
 }
 
-const int pow_l = 255 ,pow_m = 200, pow_s = 65;
+const int pow_l = 255 ,pow_m = 200, pow_s = 35;
 
 int pre_dir = 0;
 void loop() {
