@@ -1,6 +1,5 @@
 #include <Arduino.h>
 #include "motor.h"
-#include "utl.h"
 #define rep(i,n) for(int i = 0; i < n; i++)
 const int M1_L = 5, M1_R = 6, M2_L = 10, M2_R = 9;
 const int SW_1 = 20, SW_2 = 21;

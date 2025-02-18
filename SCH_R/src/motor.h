@@ -9,7 +9,6 @@ class Motor {
     void setup();
     void forward(int speed);
     void backward(int speed);
-    void stop();
   private:
     int left, right;
 };
@@ -37,11 +36,6 @@ void Motor::forward(int speed) {
 void Motor::backward(int speed) {
   digitalWrite(left, LOW);
   analogWrite(right, speed);
-}
-
-void Motor::stop() {
-  digitalWrite(left, LOW);
-  digitalWrite(right, LOW);
 }
 
 #endif

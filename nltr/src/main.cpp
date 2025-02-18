@@ -19,11 +19,10 @@ void setup() {
   while (digitalRead(SW_1)) delay(10);  
 }
 
-const int pow_l = 255 ,pow_m = 200, pow_s = 35;
+const int pow_l = 255 ,pow_m = 255, pow_s = 175;
 
 int pre_dir = 0;
 void loop() {
-  s.read();
   switch (s.state())
   {
   case 0b0000:
